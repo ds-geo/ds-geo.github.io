@@ -7,36 +7,30 @@
 
 /* Body Styling */
 body {
-  font-family: 'Rubik', sans-serif; /* Changed to Rubik */
-  background-color: #ffffff; /* White background for main content */
-  color: #6e63c7; /* Dark lavender script */
+  font-family: 'Rubik', sans-serif;
+  background-color: #aca2b8; /* Soft purple background */
+  color: #ffffff; /* White text */
   line-height: 1.6;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh;
-  text-align: center; /* Center-align all content by default */
+  text-align: center;
 }
 
 /* Header */
 header {
-  background-color: #c3b4f0; /* Pastel lavender edges */
+  background-color: #483d54; /* Dark purple */
   padding: 20px 0;
   width: 100%;
 }
 
 header h1 {
-  font-size: 3em; /* Slightly bigger font */
-  font-weight: 600; /* Less bold */
-  color: #ffffff; /* White script */
+  font-size: 3em;
+  font-weight: 600;
+  color: #ffffff;
   margin-bottom: 10px;
-}
-
-header p {
-  font-size: 1.1em;
-  font-weight: 700; /* Thicker but a bit less bold */
-  color: #f8f8f8;
 }
 
 header nav ul {
@@ -51,42 +45,43 @@ header nav ul li {
 }
 
 header nav ul li a {
-  font-weight: normal; /* Override other rules */
+  font-weight: normal;
   text-decoration: underline;
   color: #ffffff;
 }
 
 header nav ul li a:hover {
-  color: #e5daff; /* Softer lavender */
-  text-decoration: underline; /* Keep underline on hover */
+  color: #ddd8f0;
+  text-decoration: underline;
 }
 
 /* Main Content */
 main {
-  background-color: #ffffff; /* White background for content */
-  padding: 50px 20px; /* Add spacing inside sections */
-  width: 50%; /* Limit the main section to 50% of the page width */
-  max-width: 800px; /* Set a max width to avoid overly stretched content */
-  text-align: left; /* Align the text to the left */
-  margin: 0 auto; /* Center horizontally */
-  flex-grow: 1; /* Allow the main content to take up available space */
+  padding: 50px 20px;
+  width: 50%;
+  max-width: 800px;
+  text-align: left;
+  margin: 0 auto;
+  flex-grow: 1;
 }
 
 main h1 {
-  font-size: 2.5em; /* Big font for homepage heading */
-  color: #6e63c7; /* Dark lavender */
-  font-weight: 700; /* Slightly less bold */
+  font-family: 'Miltonian', cursive;
+  font-size: 2.5em;
+  font-weight: 700;
   margin-bottom: 10px;
+  color: #ffffff;
 }
 
 .intro {
-  font-size: 1.4em; /* Smaller font */
-  color: #6e63c7;
-  font-weight: 600; /* Less bold */
+  font-size: 1.4em;
+  font-weight: 600;
   margin-top: 20px;
   margin-bottom: 30px;
+  color: #ffffff;
 }
 
+/* Bullet Points (if used) */
 .bullet-points {
   list-style: none;
   margin-top: 20px;
@@ -94,67 +89,63 @@ main h1 {
 }
 
 .bullet-points li {
-  font-size: 1em; /* Smaller font for bullet points */
-  color: #6e63c7;
+  font-size: 1em;
   margin: 8px 0;
-  text-align: left; /* Left-align bullet points */
+  text-align: left;
+  color: #ffffff;
 }
 
-/* Homepage Highlight */
-#home h1 {
-  font-size: 3.5em;
-  color: #6e63c7; /* Dark lavender */
-  font-weight: 700; /* Slightly less bold */
-  margin-bottom: 10px;
+/* Contact Section */
+#contact h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
 }
 
-#home p {
-  font-size: 1.2em;
-  color: #6e63c7; /* Supporting text smaller and lighter */
+#contact ul {
+  list-style: none;
+  padding: 0;
 }
 
-/* Profile Image Styling */
-.profile-image-container {
-  float: right; /* Makes the text wrap around the image */
-  margin-right: 30px; /* Adds more space to the right of the image */
-  margin-bottom: 20px; /* Adds space below the image */
-  width: 300px; /* Ensures container is square */
-  height: 300px; /* Ensures container is square */
+#contact li {
+  margin: 0.5rem 0;
 }
 
-.profile-image {
-  width: 100%; /* Make image fill the container */
-  height: 100%; /* Make image fill the container */
-  object-fit: cover; /* Ensure the image covers the container without distortion */
-  border-radius: 20px; /* Rounded corners for the image */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* Buttons */
 button, a.button {
-  font-family: 'Rubik', sans-serif; /* Changed to Rubik */
-  border: 2px solid #c3b4f0; /* Lavender border */
-  background-color: #ffffff; /* White background for buttons */
-  color: #6e63c7; /* Lavender text */
+  font-family: 'Rubik', sans-serif;
+  border: 2px solid #ffffff;
+  background-color: #483d54;
+  color: #ffffff;
   border-radius: 20px;
   padding: 10px 20px;
   text-decoration: none;
   font-size: 1em;
-  font-weight: 700; /* Bold */
+  font-weight: 700;
   transition: background-color 0.3s, color 0.3s;
 }
 
 button:hover, a.button:hover {
-  background-color: #c3b4f0; /* Lavender hover background */
-  color: #ffffff; /* White text */
+  background-color: #ffffff;
+  color: #483d54;
 }
 
 /* Footer */
 footer {
-  background-color: #c3b4f0;
+  background-color: #483d54;
   color: #ffffff;
   padding: 15px 0;
   text-align: center;
-  width: 100%; /* Footer takes up 100% of the width */
+  width: 100%;
 }
 
 footer a {
@@ -169,7 +160,7 @@ footer a:hover {
 /* Responsive Design */
 @media (max-width: 768px) {
   main {
-    width: 90%; /* Adjust to full width on smaller screens */
+    width: 90%;
   }
 
   header h1 {
@@ -186,6 +177,6 @@ footer a:hover {
   }
 
   .intro {
-    font-size: 1.4em; /* Adjust intro text size on smaller screens */
+    font-size: 1.4em;
   }
 }
