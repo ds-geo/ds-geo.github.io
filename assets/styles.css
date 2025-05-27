@@ -7,7 +7,7 @@
 
 /* Body Styling */
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Instrument Serif', serif;
   background-color: #aca2b8; /* Soft purple background */
   color: #ffffff; /* White text */
   line-height: 1.6;
@@ -31,6 +31,7 @@ header h1 {
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 10px;
+  font-family: 'Miltonian', cursive;
 }
 
 header nav ul {
@@ -48,6 +49,7 @@ header nav ul li a {
   font-weight: normal;
   text-decoration: underline;
   color: #ffffff;
+  font-family: 'Instrument Serif', serif;
 }
 
 header nav ul li a:hover {
@@ -63,6 +65,7 @@ main {
   text-align: left;
   margin: 0 auto;
   flex-grow: 1;
+  font-family: 'Instrument Serif', serif;
 }
 
 main h1 {
@@ -93,6 +96,7 @@ main h1 {
   margin: 8px 0;
   text-align: left;
   color: #ffffff;
+  font-family: 'Instrument Serif', serif;
 }
 
 /* Contact Section */
@@ -100,6 +104,7 @@ main h1 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   color: #ffffff;
+  font-family: 'Miltonian', cursive;
 }
 
 #contact ul {
@@ -114,6 +119,7 @@ main h1 {
 a {
   color: #ffffff;
   text-decoration: none;
+  font-family: 'Instrument Serif', serif;
 }
 
 a:hover {
@@ -122,7 +128,7 @@ a:hover {
 
 /* Buttons */
 button, a.button {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Instrument Serif', serif;
   border: 2px solid #ffffff;
   background-color: #483d54;
   color: #ffffff;
@@ -151,6 +157,7 @@ footer {
 footer a {
   color: #ffffff;
   text-decoration: none;
+  font-family: 'Instrument Serif', serif;
 }
 
 footer a:hover {
