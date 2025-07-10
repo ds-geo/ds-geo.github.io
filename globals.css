@@ -1,0 +1,16 @@
+/* Import Google Fonts FIRST */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Patrick+Hand&display=swap');
+/* Import Tailwind CSS */
+@import "tailwindcss";
+
+/* Minimal global CSS */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define CSS variables for fonts */
+@theme {
+  --font-londrina: 'Londrina Solid', Helvetica, Arial, sans-serif;
+  --font-combo: 'Combo', Georgia, sans-serif;
+}
