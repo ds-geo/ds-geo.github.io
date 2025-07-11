@@ -53,7 +53,8 @@ export default function Resume() {
                   </p>
                   <ul className="list-disc list-inside ml-4 text-sm">
                     <li>designed interactive visualization frameworks for laser system experiment data</li>
-                    <li>developed front-end with react.js, typescript, and plotly</li>
+                    <li>developed front-end with react.js and typescript </li>
+                    <li>used plotly to generate heatmaps and trace-based graphs; added image-supported graphs to visualization suite</li>
                     <li>built backend communication using python for data retrieval and processing</li>
                     <li>collaborated in agile team to implement and test user requirements</li>
                   </ul>

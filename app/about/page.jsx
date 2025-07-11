@@ -43,7 +43,7 @@ export default function AboutPage() {
 
         <p className="mb-4">
           that curiosity naturally pulled me toward computer science. it felt like the perfect way to mix creativity, logic, and real-world impact all in one place. at cornell, i’ve chased that passion by diving into hands-on projects like working with the mars rover team{' '}
-          <span role="img" aria-label="rocket">🚀</span>, doing robotics research at the emprisE lab, and developing interactive ml dashboards during my internship at lawrence livermore national lab 🔬.
+          <span role="img" aria-label="rocket">🚀</span>, doing robotics research at the emprisE lab, and developing interactive visualization dashboards during my internship at lawrence livermore national lab 🔬.
         </p>
 
         <p>
