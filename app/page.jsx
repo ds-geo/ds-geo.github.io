@@ -31,7 +31,7 @@ export default function HomePage() {
 
  return (
    <section className="text-center max-w-3xl mx-auto px-4 py-16 lowercase text-purple-950">
-     <div className="relative w-[550px] h-[400px] mx-auto mb-8 mt-[-3rem] rounded-3xl overflow-hidden border-4 border-purple-950 shadow-lg">
+     <div className="relative w-full max-w-[550px] aspect-[11/8] mx-auto mb-8 -mt-12 rounded-3xl overflow-hidden border-4 border-purple-950 shadow-lg">
        <Image
          src="/homeheadshot.png"
          alt="Damita George"
@@ -42,7 +42,9 @@ export default function HomePage() {
      </div>
 
 
-     <h1 className="text-6xl font-londrina mb-6">Hi! I’m Damita George.</h1>
+     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-londrina mb-6">
+      Hi! I’m Damita George.
+      </h1>
 
 
      <p className="text-xl mb-4">
@@ -53,7 +55,7 @@ export default function HomePage() {
      <p className="text-xl mb-4">you can find me:</p>
 
 
-     <div className="mb-10 flex items-center justify-center max-w-[1100px] mx-auto space-x-4">
+     <div className="mb-10 flex flex-col sm:flex-row items-center justify-center max-w-[1100px] mx-auto gap-4">
        <button
          onClick={handlePrev}
          className="p-2 rounded-full bg-purple-950 text-white hover:scale-110 transition"
@@ -63,7 +65,7 @@ export default function HomePage() {
        </button>
 
 
-       <div className="rounded-xl p-6 flex-grow bg-[rgba(233,213,255,0.6)] shadow-[0_4px_10px_rgba(76,29,149,0.7)] border-2 border-purple-950">
+       <div className="w-full rounded-xl p-6 flex-grow bg-[rgba(233,213,255,0.6)] shadow-[0_4px_10px_rgba(76,29,149,0.7)] border-2 border-purple-950">
          <div className="text-xl bullet-point min-h-[3.5rem] transition-opacity duration-500 ease-in-out">
            {bulletPoints[index]}
          </div>
@@ -83,7 +85,8 @@ export default function HomePage() {
      <p className="text-center text-xl mb-4">explore more:</p>
 
 
-     <div className="flex justify-center space-x-8 mt-4">
+     <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-4">
+
        <Link
          href="/about"
          className="px-6 py-3 bg-[rgba(233,213,255,0.6)] shadow-[0_4px_10px_rgba(76,29,149,0.7)] border-2 border-purple-950 rounded-xl text-purple-950 hover:bg-purple-950 hover:text-white transition no-underline"
