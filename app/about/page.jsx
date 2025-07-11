@@ -12,30 +12,30 @@ export default function AboutPage() {
          how'd i get here?
        </h2>
      </section>
-     <section className="max-w-6xl mx-auto px-4 py-6 lowercase text-purple-950 text-xl text-center">
-       <div className="flex gap-4 justify-center mb-4">
-         <Image
-           src="/about2.png"
-           alt="About image 1"
-           width={350}
-           height={350}
-           className="rounded-xl object-cover border-4 border-purple-950"
-         />
-         <Image
-           src="/about1.png"
-           alt="About image 2"
-           width={350}
-           height={350}
-           className="rounded-xl object-cover border-4 border-purple-950"
-         />
-         <Image
-           src="/about3.png"
-           alt="About image 3"
-           width={350}
-           height={350}
-           className="rounded-xl object-cover border-4 border-purple-950"
-         />
-       </div>
+     <section className="max-w-6xl mx-auto px-4 sm:px-8 py-6 lowercase text-purple-950 text-lg sm:text-xl text-center">
+     <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4 justify-center mb-4">
+      <Image
+        src="/about2.png"
+        alt="About image 1"
+        width={350}
+        height={350}
+        className="rounded-xl object-cover border-4 border-purple-950 w-full sm:w-[300px] h-auto"
+      />
+      <Image
+        src="/about1.png"
+        alt="About image 2"
+        width={350}
+        height={350}
+        className="rounded-xl object-cover border-4 border-purple-950 w-full sm:w-[300px] h-auto"
+      />
+      <Image
+        src="/about3.png"
+        alt="About image 3"
+        width={350}
+        height={350}
+        className="rounded-xl object-cover border-4 border-purple-950 w-full sm:w-[300px] h-auto"
+      />
+    </div>
 
 
        <p className="mb-4">
