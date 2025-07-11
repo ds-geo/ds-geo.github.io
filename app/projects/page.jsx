@@ -8,8 +8,7 @@ export default function ProjectsPage() {
         what have i been working on?
       </h1>
       <p className="text-center text-sm text-gray-600 max-w-2xl mx-auto mb-10">
-        i’m a student and many of these projects were created for coursework—so they fall under academic integrity policies and i can't share code publicly. feel free to reach out if you're interested in seeing demos or specific code samples! my 
-        {" "}
+        i’m a student and many of these projects were created for coursework—so they fall under academic integrity policies and i can't share code publicly. feel free to reach out if you're interested in seeing demos or specific code samples! my{" "}
         <a href="https://github.com/ds-geo" className="underline hover:text-purple-800" target="_blank" rel="noopener noreferrer">
           github
         </a>{" "}
@@ -35,30 +34,11 @@ export default function ProjectsPage() {
           />
         </div>
 
-        {/* 2 — Interactive Image Selector (May 2025) */}
-        <div className="w-full sm:w-1/2 md:w-2/7">
-          <ProjectCard
-            title="interactive image selector 🖼️"
-            date="may 2025"
-            description="a desktop image editor that enables users to trace and extract subjects using point-to-point or edge-following tools. implemented dijkstra’s algorithm with a custom min-heap priority queue to compute shortest paths over pixel graphs. built a responsive gui with java swing."
-            imageSrc="/projects/intelligent-scissors.png"
-            skills={[
-              "java",
-              "dijkstra’s algorithm",
-              "swing gui",
-              "image processing",
-              "graph algorithms",
-              "custom data structures",
-            ]}
-            authors="damita george, abigail joseph, prof. curran muhlberger"
-          />
-        </div>
-
-        {/* 3 — Groupchat (Nov 2025) */}
+        {/* 2 — Groupchat (Nov 2024) */}
         <div className="w-full sm:w-1/2 md:w-2/7">
           <ProjectCard
             title="groupchat 💬"
-            date="nov 2025"
+            date="nov 2024"
             description="a real-time terminal-based group messaging application built in ocaml using the lwt asynchronous programming library. users connect via ip and port to exchange messages in a shared chatroom, with the server handling broadcasting, joins, and disconnects."
             imageSrc="/projects/gc-ocaml.png"
             skills={[
@@ -70,6 +50,25 @@ export default function ProjectsPage() {
               "error handling",
             ]}
             authors="solo project: damita george"
+          />
+        </div>
+
+        {/* 3 — Pet Garden Simulator (Dec 2024) */}
+        <div className="w-full sm:w-1/2 md:w-2/7">
+          <ProjectCard
+            title="pet garden simulator 🐾"
+            date="dec 2024"
+            description="a terminal-based ascii art game where users adopt and care for a digital pet. features daily objectives, an in-game shop, four minigames, and custom pet states for happiness, energy, health, and bond."
+            imageSrc="/projects/pet-simulator.png"
+            skills={[
+              "OCaml",
+              "functional design",
+              "state management",
+              "user interaction",
+              "modular programming",
+              "terminal-based UI",
+            ]}
+            authors="damita george, abigail joseph, harshini lakshminarayanan, tanya paul"
           />
         </div>
 
@@ -91,26 +90,7 @@ export default function ProjectsPage() {
           />
         </div>
 
-        {/* 5 — Pet Garden Simulator (Dec 2024) */}
-        <div className="w-full sm:w-1/2 md:w-2/7">
-          <ProjectCard
-            title="pet garden simulator 🐾"
-            date="dec 2024"
-            description="a terminal-based ascii art game where users adopt and care for a digital pet. features daily objectives, an in-game shop, four minigames, and custom pet states for happiness, energy, health, and bond."
-            imageSrc="/projects/pet-simulator.png"
-            skills={[
-              "OCaml",
-              "functional design",
-              "state management",
-              "user interaction",
-              "modular programming",
-              "terminal-based UI",
-            ]}
-            authors="damita george, abigail joseph, harshini lakshminarayanan, tanya paul"
-          />
-        </div>
-
-        {/* 6 — Battery Monitoring Board (2023–24) */}
+        {/* 5 — Battery Monitoring Board (2023–24) */}
         <div className="w-full sm:w-1/2 md:w-2/7">
           <ProjectCard
             title="battery monitoring board 🔋"
@@ -128,7 +108,7 @@ export default function ProjectsPage() {
           />
         </div>
 
-        {/* 7 — Alien Invaders (Dec 2023) */}
+        {/* 6 — Alien Invaders (Dec 2023) */}
         <div className="w-full sm:w-1/2 md:w-2/7">
           <ProjectCard
             title="alien invaders 👾"
@@ -146,7 +126,7 @@ export default function ProjectsPage() {
           />
         </div>
 
-        {/* 8 — Connectn (Nov 2023) */}
+        {/* 7 — Connectn (Nov 2023) */}
         <div className="w-full sm:w-1/2 md:w-2/7">
           <ProjectCard
             title="connectn 🎯"
@@ -162,6 +142,25 @@ export default function ProjectsPage() {
               "command-line interface",
             ]}
             authors="damita george, abigail joseph, prof. walker white"
+          />
+        </div>
+
+        {/* 8 — Interactive Image Selector (May 2024) */}
+        <div className="w-full sm:w-1/2 md:w-2/7">
+          <ProjectCard
+            title="interactive image selector 🖼️"
+            date="may 2024"
+            description="a desktop image editor that enables users to trace and extract subjects using point-to-point or edge-following tools. implemented dijkstra’s algorithm with a custom min-heap priority queue to compute shortest paths over pixel graphs. built a responsive gui with java swing."
+            imageSrc="/projects/intelligent-scissors.png"
+            skills={[
+              "java",
+              "dijkstra’s algorithm",
+              "swing gui",
+              "image processing",
+              "graph algorithms",
+              "custom data structures",
+            ]}
+            authors="damita george, abigail joseph, prof. curran muhlberger"
           />
         </div>
       </div>
