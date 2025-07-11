@@ -15,21 +15,21 @@ export default function AboutPage() {
      <section className="max-w-6xl mx-auto px-4 sm:px-8 py-6 lowercase text-purple-950 text-lg sm:text-xl text-center">
      <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4 justify-center mb-4">
       <Image
-        src="/about2.png"
+        src="/about/about2.png"
         alt="About image 1"
         width={350}
         height={350}
         className="rounded-xl object-cover border-4 border-purple-950 w-full sm:w-[300px] h-auto"
       />
       <Image
-        src="/about1.png"
+        src="/about/about1.png"
         alt="About image 2"
         width={350}
         height={350}
         className="rounded-xl object-cover border-4 border-purple-950 w-full sm:w-[300px] h-auto"
       />
       <Image
-        src="/about3.png"
+        src="/about/about3.png"
         alt="About image 3"
         width={350}
         height={350}

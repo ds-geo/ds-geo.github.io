@@ -7,7 +7,7 @@ export default function Resume() {
         </h1>
         <div className="flex justify-center mb-10">
           <a
-            href="/damita-resume.pdf"
+            href="/resume/damita-resume.pdf"
             download
             className="px-5 py-2 rounded-xl bg-purple-950 border-2 border-white text-white lowercase shadow-lg transition-transform duration-200 hover:scale-105"
           >

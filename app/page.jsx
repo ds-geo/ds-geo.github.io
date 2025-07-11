@@ -33,7 +33,7 @@ export default function HomePage() {
    <section className="text-center max-w-3xl mx-auto px-4 py-16 lowercase text-purple-950">
      <div className="relative w-full max-w-[550px] aspect-[11/8] mx-auto mb-8 -mt-12 rounded-3xl overflow-hidden border-4 border-purple-950 shadow-lg">
        <Image
-         src="/homeheadshot.png"
+         src="/home/homeheadshot.png"
          alt="Damita George"
          fill
          className="object-cover"

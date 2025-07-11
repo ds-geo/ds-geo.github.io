@@ -23,7 +23,7 @@ export default function ProjectsPage() {
             title="portfolio website 🌐"
             date="july 2025"
             description="a responsive personal site built with next.js and tailwind css to showcase my projects and experiences. features animated bullets, custom fonts, and a clean pastel layout across dedicated pages for about, resume, and projects."
-            imageSrc="/portfolio-pic.png"
+            imageSrc="/projects/portfolio-pic.png"
             skills={[
               "next.js",
               "tailwind css",
@@ -41,7 +41,7 @@ export default function ProjectsPage() {
             title="interactive image selector 🖼️"
             date="may 2025"
             description="a desktop image editor that enables users to trace and extract subjects using point-to-point or edge-following tools. implemented dijkstra’s algorithm with a custom min-heap priority queue to compute shortest paths over pixel graphs. built a responsive gui with java swing."
-            imageSrc="/intelligent-scissors.png"
+            imageSrc="/projects/intelligent-scissors.png"
             skills={[
               "java",
               "dijkstra’s algorithm",
@@ -60,7 +60,7 @@ export default function ProjectsPage() {
             title="groupchat 💬"
             date="nov 2025"
             description="a real-time terminal-based group messaging application built in ocaml using the lwt asynchronous programming library. users connect via ip and port to exchange messages in a shared chatroom, with the server handling broadcasting, joins, and disconnects."
-            imageSrc="/gc-ocaml.png"
+            imageSrc="/projects/gc-ocaml.png"
             skills={[
               "OCaml",
               "Lwt",
@@ -79,7 +79,7 @@ export default function ProjectsPage() {
             title="brushed motor controller (bdc) ⚙️"
             date="2024"
             description="a high-reliability pcb controlling brushed dc motors on cornell mars rover. integrates stm32g474ret6 and can-fd communication. supports remote motor start/stop, adjustable speed, and fault feedback reporting."
-            imageSrc="/bdc-board.png"
+            imageSrc="/projects/bdc-board.png"
             skills={[
               "pcb design",
               "embedded systems",
@@ -97,7 +97,7 @@ export default function ProjectsPage() {
             title="pet garden simulator 🐾"
             date="dec 2024"
             description="a terminal-based ascii art game where users adopt and care for a digital pet. features daily objectives, an in-game shop, four minigames, and custom pet states for happiness, energy, health, and bond."
-            imageSrc="/pet-simulator.png"
+            imageSrc="/projects/pet-simulator.png"
             skills={[
               "OCaml",
               "functional design",
@@ -116,7 +116,7 @@ export default function ProjectsPage() {
             title="battery monitoring board 🔋"
             date="2023–24"
             description="a custom-designed pcb for cornell mars rover’s power system with real-time current and voltage monitoring. includes ina232 amplifier and stm32 microcontroller with i2c support. tested as a documented backup for future rover integration."
-            imageSrc="/battery-monitoring.png"
+            imageSrc="/projects/battery-monitoring.png"
             skills={[
               "pcb design",
               "circuit schematic",
@@ -134,7 +134,7 @@ export default function ProjectsPage() {
             title="alien invaders 👾"
             date="dec 2023"
             description="a retro-style space invaders clone with multiple levels, smooth animations, collision detection, and win/loss states. built in python using the kivy framework with a focus on clean architecture and responsive gameplay."
-            imageSrc="/alieninvaders.png"
+            imageSrc="/projects/alieninvaders.png"
             skills={[
               "python",
               "kivy",
@@ -152,7 +152,7 @@ export default function ProjectsPage() {
             title="connectn 🎯"
             date="nov 2023"
             description="a customizable connect-4-inspired game featuring dynamic board sizes, adjustable win conditions, and an optional AI opponent. built in python with a focus on modular design, win detection logic, and clean CLI interaction. supports human vs. human and human vs. computer gameplay."
-            imageSrc="/connectn.png"
+            imageSrc="/projects/connectn.png"
             skills={[
               "python",
               "object-oriented design",
