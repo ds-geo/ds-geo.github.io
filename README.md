@@ -8,7 +8,7 @@ Showcasing my projects, resume, and story with a clean, responsive design.
 ## ✨ Features  
 - Responsive & mobile-friendly 📱  
 - Animated bullets & custom fonts 🎨  
-- Pages: About, Projects, Resume  
+- Pages: Home, About, Projects, Resume  
 - Downloadable 1-page resume 📄  
 - Social links: LinkedIn & GitHub 🔗  
 
