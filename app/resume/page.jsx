@@ -34,9 +34,9 @@ export default function Resume() {
             title: "technical skills",
             content: (
               <p>
-                <strong>languages:</strong> python, java, ocaml, javascript, html/css, cypher (query language)
+                <strong>languages:</strong> python, java, ocaml, javascript, html/css, cypher (query language), sql
                 <br />
-                <strong>technologies:</strong> react, next, tailwind css, fastapi, chatgpt, prompt engineering, neo4j
+                <strong>technologies:</strong> react, next, tailwind css, fastapi, chatgpt, prompt engineering, neo4j, oracle sql developer 
                 <br />
                 <strong>developer tools:</strong> git, github, gitlab, pulsar, vscode, intellij, jupyter, unix/linux shell, eagle
               </p>
@@ -56,6 +56,7 @@ export default function Resume() {
                     <li>developed front-end with react.js and typescript </li>
                     <li>used plotly to generate heatmaps and trace-based graphs; added image-supported graphs to visualization suite</li>
                     <li>built backend communication using python (fastapi) for data retrieval and processing</li>
+                    <li>used sql to query relational databases and extract valid experimental data for testing purposes</li>
                     <li>wrote end-to-end tests using cypress to ensure ui reliability and functionality</li>
                     <li>collaborated in agile team to implement and test user requirements</li>
                   </ul>
