@@ -52,13 +52,14 @@ export default function Resume() {
                     <em>software engineer intern</em>, may–aug 2025
                   </p>
                   <ul className="list-disc list-inside ml-4 text-sm">
-                    <li>designed interactive visualization frameworks for laser system experiment data</li>
-                    <li>developed front-end with react.js and typescript </li>
-                    <li>used plotly to generate heatmaps and trace-based graphs; added image-supported graphs to visualization suite</li>
-                    <li>built backend communication using python (fastapi) for data retrieval and processing</li>
-                    <li>used sql to query relational databases and extract valid experimental data for testing purposes</li>
-                    <li>wrote end-to-end tests using cypress to ensure ui reliability and functionality</li>
-                    <li>collaborated in agile team to implement and test user requirements</li>
+                  <li>designed interactive visualization frameworks for laser system experiment data</li>
+                  <li>developed front-end with react.js and typescript </li>
+                  <li>used plotly to generate heatmaps and trace-based graphs; added image-supported graphs to visualization suite</li>
+                  <li>built backend communication using python (fastapi) for data retrieval and processing</li>
+                  <li>used sql to query relational databases and extract valid experimental data for testing purposes</li>
+                  <li>wrote end-to-end tests using cypress to ensure ui reliability and functionality</li>
+                  <li>collaborated in agile team to implement and test user requirements</li>
+                  <li>recognized as a top 6 presenter (out of ~40 computing interns) for a technical poster presentation highlighting project design, implementation, and results</li>
                   </ul>
                 </div>
                 <div className="mb-4">
