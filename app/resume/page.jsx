@@ -27,6 +27,7 @@ export default function Resume() {
                 gpa: 3.74
                 <br />
                 <span className="italic">relevant courses:</span> intro to machine learning, analysis of algorithms, data structures & oop, discrete math, statistics, calc iii
+                <span className="italic">fall 2025:</span> ai reasoning & decision making, principles of large scale ml systems, robotics
               </p>
             ),
           },
