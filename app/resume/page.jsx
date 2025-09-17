@@ -24,7 +24,7 @@ export default function Resume() {
                 <br />
                 bachelor of science, computer science; minors: ai & philosophy
                 <br />
-                gpa: 3.74
+                gpa: 3.743
                 <br />
                 <span className="italic">relevant courses:</span> intro to machine learning, analysis of algorithms, data structures & oop, discrete math, statistics, calc iii
                 <br />
@@ -36,11 +36,13 @@ export default function Resume() {
             title: "technical skills",
             content: (
               <p>
-                <strong>languages:</strong> python, java, ocaml, javascript, html/css, cypher (query language), sql
+                <strong>languages:</strong> python, java, ocaml, javascript, typescript, html/css, cypher (query language), sql, bash
                 <br />
-                <strong>technologies:</strong> react, next, tailwind css, fastapi, chatgpt, prompt engineering, neo4j, oracle sql developer 
+                <strong>technologies:</strong> react, next, tailwind css, fastapi, cypress, chatgpt, prompt engineering, neo4j, jira, oracle sql developer
                 <br />
-                <strong>developer tools:</strong> git, github, gitlab, pulsar, vscode, intellij, jupyter, unix/linux shell, eagle
+                <strong>developer tools:</strong> git, github, gitlab, pulsar, vscode, intellij, jupyter, unix/linux shell, eagle, agile/scrum, unit/e2e testing
+                <br />
+                <strong>other:</strong> nvidia omniverse isaac sim, unity, rest apis
               </p>
             ),
           },
@@ -54,14 +56,14 @@ export default function Resume() {
                     <em>software engineer intern</em>, may–aug 2025
                   </p>
                   <ul className="list-disc list-inside ml-4 text-sm">
-                  <li>designed interactive visualization frameworks for laser system experiment data</li>
-                  <li>developed front-end with react.js and typescript </li>
-                  <li>used plotly to generate heatmaps and trace-based graphs; added image-supported graphs to visualization suite</li>
-                  <li>built backend communication using python (fastapi) for data retrieval and processing</li>
-                  <li>used sql to query relational databases and extract valid experimental data for testing purposes</li>
-                  <li>wrote end-to-end tests using cypress to ensure ui reliability and functionality</li>
-                  <li>collaborated in agile team to implement and test user requirements</li>
-                  <li>recognized as a top 6 presenter (out of ~40 computing interns) for a technical poster presentation highlighting project design, implementation, and results</li>
+                    <li>designed interactive visualization frameworks for laser system experiment data</li>
+                    <li>developed front-end with react.js and typescript</li>
+                    <li>used plotly to generate heatmaps and trace-based graphs; added image-supported graphs to visualization suite</li>
+                    <li>built backend communication using python (fastapi) for data retrieval and processing</li>
+                    <li>used sql to query relational databases and extract valid experimental data for testing purposes</li>
+                    <li>wrote end-to-end tests using cypress to ensure ui reliability and functionality</li>
+                    <li>collaborated in agile team to implement and test user requirements</li>
+                    <li>recognized as a top 6 presenter (out of ~40 computing interns) for a technical poster presentation highlighting project design, implementation, and results</li>
                   </ul>
                 </div>
                 <div className="mb-4">
@@ -103,15 +105,27 @@ export default function Resume() {
             title: "technical projects",
             content: (
               <>
-                <p>
-                  <strong>cornell mars rover</strong>, ithaca, ny —{" "}
-                  <em>electrical engineer</em>, oct 2023–present
-                </p>
-                <ul className="list-disc list-inside ml-4 text-sm">
-                  <li>designed pcbs for rover systems using eagle</li>
-                  <li>developed battery monitoring board & brushed motor (bdc) board</li>
-                  <li>used github for version control of schematics and firmware</li>
-                </ul>
+                <div className="mb-4">
+                  <p>
+                    <strong>cornell mars rover</strong>, ithaca, ny —{" "}
+                    <em>electrical engineer</em>, oct 2023–dec 2024
+                  </p>
+                  <ul className="list-disc list-inside ml-4 text-sm">
+                    <li>designed pcbs for rover systems using eagle</li>
+                    <li>developed battery monitoring board & brushed motor (bdc) board</li>
+                    <li>used github for version control of schematics and firmware</li>
+                  </ul>
+                </div>
+                <div>
+                  <p>
+                    <strong>emprise lab</strong>, ithaca, ny —{" "}
+                    <em>robotics student researcher</em>, sep 2025–present
+                  </p>
+                  <ul className="list-disc list-inside ml-4 text-sm">
+                    <li>explored migration of unity-based robotic caregiving simulations to nvidia isaac sim (omniverse), including asset conversion (fbx → usd)</li>
+                    <li>set up and tested isaac sim, documenting workflows for robot import (urdf), environment recreation (usd), and replacing unity c# control scripts with python/ros 2</li>
+                  </ul>
+                </div>
               </>
             ),
           },
@@ -131,12 +145,13 @@ export default function Resume() {
                 </div>
                 <div>
                   <p>
-                    <strong>society of women engineers</strong>, ithaca, ny — <em>co-outreach coordinator</em>, may 2025–present
+                    <strong>society of women engineers</strong>, ithaca, ny — <em>co-outreach coordinator</em>, apr 2025–present
                   </p>
                   <ul className="list-disc list-inside ml-4 text-sm">
-                    <li>built upon involvement since 2021 in SWENext and the SWE Outreach at Cornell University</li>
-                    <li>organized postcard writing events for prospective students</li>
-                    <li>currently oversee 9 outreach committees, events, and required documentation</li>
+                    <li>oversee 9 outreach committees with 50+ student members, supporting initiatives for girl scouts, local schools, community organizations, prospective students, and undergraduates</li>
+                    <li>coordinate outreach events to increase student engagement in engineering and broaden participation in stem</li>
+                    <li>act as liaison between community partners and swe members to strengthen relationships</li>
+                    <li>provide logistical oversight, mentorship, and event planning support for large-scale outreach programs</li>
                   </ul>
                 </div>
               </>
@@ -147,7 +162,7 @@ export default function Resume() {
             content: (
               <ul className="list-disc list-inside ml-4 text-sm">
                 <li>
-                  <strong>emprise lab</strong>, ithaca, ny — <em>student researcher</em>, nov 2024–present
+                  <strong>civil air patrol tri-valley squadron 156</strong>, livermore, ca — <em>cadet leader</em>, jan 2021–jul 2023
                 </li>
               </ul>
             ),
@@ -162,7 +177,7 @@ export default function Resume() {
           </section>
         ))}
         <p className="mt-12 text-sm text-gray-500 lowercase">
-          updated july 2025 · contact: damitasg@gmail.com · (510) 342-4000 ·{" "}
+          updated sep 2025 · contact: damitasg@gmail.com · (510) 342-4000 ·{" "}
           <a
             href="https://www.linkedin.com/in/damita-sara-george/"
             className="underline text-purple-950"
