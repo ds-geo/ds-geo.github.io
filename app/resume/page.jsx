@@ -36,7 +36,7 @@ export default function Resume() {
             title: "technical skills",
             content: (
               <p>
-                <strong>languages:</strong> python, java, ocaml, c, javascript, typescript, html/css, cypher (query language), sql, bash
+                <strong>languages:</strong> python, java, ocaml, c, javascript, typescript, html/css, cypher (query language), sql, bash scripting
                 <br />
                 <strong>technologies:</strong> react, next, tailwind css, fastapi, cypress, chatgpt, prompt engineering, neo4j, jira, oracle sql developer
                 <br />
