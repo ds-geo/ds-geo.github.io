@@ -37,7 +37,7 @@ export default function AboutPage() {
         </div>
 
         <p className="mb-4">
-          growing up in bangalore, singapore, and the bay area — each buzzing with innovation and tech energy — i couldn’t help but get hooked on problem-solving and building things that actually matter. whether it was bangalore’s fast-moving tech scene, singapore’s slick digital infrastructure, or silicon valley’s nonstop startup vibe, i was inspired by everyone around me using technology to shape the future{' '}
+          growing up in bangalore, singapore, and the bay area, buzzing with innovation and tech energy, i couldn’t help but get hooked on problem-solving and building things that actually matter. whether it was bangalore’s fast-moving tech scene, singapore’s slick digital infrastructure, or silicon valley’s nonstop startup vibe, i was inspired by everyone around me using technology to shape the future{' '}
           <span role="img" aria-label="globe">🌍</span>.
         </p>
 
