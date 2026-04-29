@@ -24,11 +24,11 @@ export default function Resume() {
                 <br />
                 bachelor of science, computer science; minors: ai & philosophy
                 <br />
-                gpa: 3.743
+                gpa: 3.697
                 <br />
-                <span className="italic">relevant courses:</span> intro to machine learning, analysis of algorithms, data structures & oop, discrete math, statistics, calc iii
+                <span className="italic">relevant courses:</span> intro to machine learning, analysis of algorithms, data structures & oop, discrete math, statistics, calc iii, ai reasoning & decision making, principles of large scale ml systems, robotics
                 <br />
-                <span className="italic">fall 2025:</span> ai reasoning & decision making, principles of large scale ml systems, robotics
+                <span className="italic">spring 2026:</span> operating systems, language & information
               </p>
             ),
           },
@@ -38,7 +38,7 @@ export default function Resume() {
               <p>
                 <strong>languages:</strong> python, java, ocaml, c, javascript, typescript, html/css, cypher (query language), sql, bash scripting
                 <br />
-                <strong>technologies:</strong> react, next, tailwind css, fastapi, cypress, chatgpt, prompt engineering, neo4j, jira, oracle sql developer
+                <strong>technologies:</strong> react, next, tailwind css, fastapi, cypress, chatgpt, prompt engineering, neo4j, jira, oracle sql developer, tensorflow, pytorch
                 <br />
                 <strong>developer tools:</strong> git, github, gitlab, pulsar, vscode, intellij, jupyter, unix/linux shell, eagle, agile/scrum, unit/e2e testing
                 <br />
@@ -56,14 +56,13 @@ export default function Resume() {
                     <em>software engineer intern</em>, may–aug 2025
                   </p>
                   <ul className="list-disc list-inside ml-4 text-sm">
-                    <li>designed interactive visualization frameworks for laser system experiment data</li>
-                    <li>developed front-end with react.js and typescript</li>
-                    <li>used plotly to generate heatmaps and trace-based graphs; added image-supported graphs to visualization suite</li>
-                    <li>built backend communication using python (fastapi) for data retrieval and processing</li>
+                    <li>built interactive visualization frameworks to display laser system experiment data</li>
+                    <li>developed react.js and typescript frontend interface and python (fastapi) backend for data processing</li>
+                    <li>used plotly to create heatmaps and trace graphs; added support for image-based graph types</li>
                     <li>used sql to query relational databases and extract valid experimental data for testing purposes</li>
                     <li>wrote end-to-end tests using cypress to ensure ui reliability and functionality</li>
-                    <li>collaborated in agile team to implement and test user requirements</li>
-                    <li>recognized as a top 6 presenter (out of ~40 computing interns) for a technical poster presentation highlighting project design, implementation, and results</li>
+                    <li>collaborated within an agile software team to gather user requirements, iterate on prototypes, and conduct end-user testing</li>
+                    <li>recognized as a top 6 presenter (out of ~40 undergraduate and graduate computing interns) for a technical poster presentation describing project design, implementation, and results</li>
                   </ul>
                 </div>
                 <div className="mb-4">
@@ -72,10 +71,11 @@ export default function Resume() {
                     <em>software engineer intern</em>, jun–aug 2024
                   </p>
                   <ul className="list-disc list-inside ml-4 text-sm">
-                    <li>developed machine learning models for predictive analysis of health insurance claims</li>
-                    <li>queried and analyzed neo4j graph data using cypher</li>
-                    <li>conducted data cleaning, normalization, and preprocessing</li>
-                    <li>built claims embedding and multi-task learning networks with biobert, tensorflow, and pytorch</li>
+                    <li>developed and optimized a machine learning model for predictive analysis on health insurance claims</li>
+                    <li>queried and traversed neo4j databases using cypher for data extraction</li>
+                    <li>conducted data preprocessing, including cleaning and normalization, to prepare datasets for analysis</li>
+                    <li>utilized tensorflow and pytorch to build and deploy ai solutions</li>
+                    <li>built a claims embedding network and a multi-task learning network based on biobert research to improve payer response predictions and enhance claims processing accuracy</li>
                   </ul>
                 </div>
                 <div className="mb-4">
@@ -107,23 +107,24 @@ export default function Resume() {
               <>
                 <div className="mb-4">
                   <p>
-                    <strong>cornell mars rover</strong>, ithaca, ny —{" "}
-                    <em>electrical engineer</em>, oct 2023–dec 2024
-                  </p>
-                  <ul className="list-disc list-inside ml-4 text-sm">
-                    <li>designed pcbs for rover systems using eagle</li>
-                    <li>developed battery monitoring board & brushed motor (bdc) board</li>
-                    <li>used github for version control of schematics and firmware</li>
-                  </ul>
-                </div>
-                <div>
-                  <p>
                     <strong>emprise lab</strong>, ithaca, ny —{" "}
                     <em>robotics student researcher</em>, sep 2025–present
                   </p>
                   <ul className="list-disc list-inside ml-4 text-sm">
-                    <li>explored migration of unity-based robotic caregiving simulations to nvidia isaac sim (omniverse), including asset conversion (fbx → usd)</li>
-                    <li>set up and tested isaac sim, documenting workflows for robot import (urdf), environment recreation (usd), and replacing unity c# control scripts with python/ros 2</li>
+                    <li>migrating unity-based robotic caregiving simulations to nvidia isaac sim, including asset conversion (fbx→usd) and workflow setup for urdf/ros 2 integration</li>
+                    <li>developed vision pipelines to detect skin irregularities and dirt from rgb-d data and localize them in 3d space</li>
+                    <li>implemented and tested modular perception functions (2d detection + depth-based projection) using segmentation and learning-based methods</li>
+                  </ul>
+                </div>
+                <div className="mb-4">
+                  <p>
+                    <strong>jpmorgan chase code for good hackathon</strong>, plano, tx —{" "}
+                    <em>participant</em>, oct 3–4 2025
+                  </p>
+                  <ul className="list-disc list-inside ml-4 text-sm">
+                    <li>developed the front end of a volunteer onboarding web app using next.js and tailwind css, integrating with a supabase sql backend to streamline workflows for the youth sports science institute</li>
+                    <li>collaborated in a cross-functional team to design user-centric, scalable features guided by mentor feedback</li>
+                    <li>delivered a functional prototype and pitch within 24 hours showcasing system design and community impact</li>
                   </ul>
                 </div>
               </>
@@ -135,23 +136,23 @@ export default function Resume() {
               <>
                 <div className="mb-4">
                   <p>
+                    <strong>society of women engineers: cornell chapter</strong>, ithaca, ny — <em>outreach co-coordinator</em>, apr 2025–present
+                  </p>
+                  <ul className="list-disc list-inside ml-4 text-sm">
+                    <li>oversee 9 outreach committees with 50+ student members, supporting initiatives for girl scouts, local schools, community organizations, prospective students, and undergraduates</li>
+                    <li>coordinate and manage outreach events designed to increase student engagement in engineering and broaden participation in stem</li>
+                    <li>act as a liaison between community partners and swe members, ensuring strong relationships and collaboration</li>
+                    <li>provide logistical oversight, mentorship, and event-planning support to ensure smooth execution of large-scale outreach programs</li>
+                  </ul>
+                </div>
+                <div>
+                  <p>
                     <strong>cyberpatriot (civil air patrol)</strong>, livermore, ca — <em>team captain</em>, aug 2022–jun 2023
                   </p>
                   <ul className="list-disc list-inside ml-4 text-sm">
                     <li>trained team to secure systems during 6-hour competition rounds</li>
                     <li>led team to top 3.9% nationwide; qualified for national semi-finals</li>
-                    <li>used scripting, policy config, and CLI for Linux/Windows security</li>
-                  </ul>
-                </div>
-                <div>
-                  <p>
-                    <strong>society of women engineers</strong>, ithaca, ny — <em>co-outreach coordinator</em>, apr 2025–present
-                  </p>
-                  <ul className="list-disc list-inside ml-4 text-sm">
-                    <li>oversee 9 outreach committees with 50+ student members, supporting initiatives for girl scouts, local schools, community organizations, prospective students, and undergraduates</li>
-                    <li>coordinate outreach events to increase student engagement in engineering and broaden participation in stem</li>
-                    <li>act as liaison between community partners and swe members to strengthen relationships</li>
-                    <li>provide logistical oversight, mentorship, and event planning support for large-scale outreach programs</li>
+                    <li>used scripting, policy config, and cli for linux/windows security</li>
                   </ul>
                 </div>
               </>
@@ -161,6 +162,9 @@ export default function Resume() {
             title: "additional experience",
             content: (
               <ul className="list-disc list-inside ml-4 text-sm">
+                <li>
+                  <strong>cornell mars rover</strong>, ithaca, ny — <em>electrical engineer</em>, oct 2023–dec 2024
+                </li>
                 <li>
                   <strong>civil air patrol tri-valley squadron 156</strong>, livermore, ca — <em>cadet leader</em>, jan 2021–jul 2023
                 </li>
@@ -177,7 +181,7 @@ export default function Resume() {
           </section>
         ))}
         <p className="mt-12 text-sm text-gray-500 lowercase">
-          updated sep 2025 · contact: damitasg@gmail.com · (510) 342-4000 ·{" "}
+          updated jan 2026 · contact: damitasg@gmail.com · (510) 342-4000 ·{" "}
           <a
             href="https://www.linkedin.com/in/damita-sara-george/"
             className="underline text-purple-950"
