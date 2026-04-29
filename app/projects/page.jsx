@@ -5,16 +5,16 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import ProjectCard from "../../components/ProjectCard";
 
 const projects = [
-  // 1 — Forkcast (May 2025) — most recent
   {
     title: "forkcast 🍴",
     date: "may 2026",
+    link: "https://forkcast.4300showcase.infosci.cornell.edu/",
     description:
       "a natural language restaurant recommendation system built on the uber eats dataset. features a hybrid retrieval pipeline combining tf-idf, svd, and sentence embeddings for reranking, with rag-generated explanations grounded in retrieved results. includes a concept panel visualizing latent semantic dimensions, menu-level match explanations, dietary filtering, and typo tolerance.",
     imageSrc: "/projects/forkcast.png",
     skills: [
       "python",
-      "react",
+      "flask",
       "tf-idf",
       "svd",
       "sentence embeddings",
@@ -25,8 +25,6 @@ const projects = [
     ],
     authors: "damita george, abigail joseph, kelly zhang",
   },
-
-  // 2 — Volunteer Hub (Oct 2025)
   {
     title: "volunteer hub 🤝",
     date: "oct 2025",
@@ -45,8 +43,6 @@ const projects = [
     authors:
       "damita george, kevin chen, sai barath, joyce zou, jessica ikino, sujan katari",
   },
-
-  // 3 — Portfolio Website (July 2025)
   {
     title: "portfolio website 🌐",
     date: "july 2025",
@@ -62,8 +58,6 @@ const projects = [
     ],
     authors: "damita george",
   },
-
-  // 4 — Pet Garden Simulator (Dec 2024)
   {
     title: "pet garden simulator 🐾",
     date: "dec 2024",
@@ -81,8 +75,6 @@ const projects = [
     authors:
       "damita george, abigail joseph, harshini lakshminarayanan, tanya paul",
   },
-
-  // 5 — Groupchat (Nov 2024)
   {
     title: "groupchat 💬",
     date: "nov 2024",
@@ -99,10 +91,8 @@ const projects = [
     ],
     authors: "solo project: damita george",
   },
-
-  // 6 — Brushed Motor Controller (2024)
   {
-    title: "brushed motor controller (bdc) ⚙️",
+    title: "brushed motor controller ⚙️",
     date: "2024",
     description:
       "a high-reliability pcb controlling brushed dc motors on cornell mars rover. integrates stm32g474ret6 and can-fd communication. supports remote motor start/stop, adjustable speed, and fault feedback reporting.",
@@ -116,8 +106,6 @@ const projects = [
     ],
     authors: "damita george",
   },
-
-  // 7 — Battery Monitoring Board (2023–24)
   {
     title: "battery monitoring board 🔋",
     date: "2023–24",
@@ -133,8 +121,6 @@ const projects = [
     ],
     authors: "damita george, varija mehta",
   },
-
-  // 8 — Interactive Image Selector (May 2024)
   {
     title: "interactive image selector 🖼️",
     date: "may 2024",
@@ -151,8 +137,6 @@ const projects = [
     ],
     authors: "damita george, abigail joseph, prof. curran muhlberger",
   },
-
-  // 9 — Alien Invaders (Dec 2023)
   {
     title: "alien invaders 👾",
     date: "dec 2023",
@@ -168,8 +152,6 @@ const projects = [
     ],
     authors: "damita george, abigail joseph, prof. walker white",
   },
-
-  // 10 — Connectn (Nov 2023)
   {
     title: "connectn 🎯",
     date: "nov 2023",
@@ -227,7 +209,7 @@ export default function ProjectsPage() {
         i'm a student and many of these projects were created for coursework—so
         they fall under academic integrity policies and i can't share code
         publicly. feel free to reach out if you're interested in seeing demos
-        and specific code samples! check out my{" "}
+        and specific code samples! my{" "}
         <a
           href="https://github.com/ds-geo"
           className="underline hover:text-purple-800"
@@ -236,7 +218,7 @@ export default function ProjectsPage() {
         >
           github
         </a>{" "}
-        here! 
+        only contains personal projects.
       </p>
 
       {/* Carousel */}
@@ -258,7 +240,7 @@ export default function ProjectsPage() {
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           {projects.map((project, i) => (
-            <div key={i} className="flex-shrink-0 w-96">
+            <div key={i} className="flex-shrink-0 w-96 h-[600px]">
               <ProjectCard
                 title={project.title}
                 date={project.date}
@@ -266,6 +248,7 @@ export default function ProjectsPage() {
                 imageSrc={project.imageSrc}
                 skills={project.skills}
                 authors={project.authors}
+                link={project.link}
               />
             </div>
           ))}
