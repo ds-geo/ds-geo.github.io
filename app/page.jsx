@@ -7,13 +7,6 @@ import Image from 'next/image';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 
-const bulletPoints = [
- "💻 diving into a new coding project like it’s a side quest i gotta finish",
- "🏋️‍♀️ gymming or 🏃‍♀️ going for a run to clear my head (and maybe break a sweat)",
- "🍵 reading with a matcha in hand — am i giving up boba for matcha? potentially.",
- "🔧 debugging life, code, and sometimes just my own thoughts (fun fact: i’m a philosophy minor!)",
-];
-
 
 export default function HomePage() {
  const [index, setIndex] = useState(0);
@@ -50,36 +43,6 @@ export default function HomePage() {
      <p className="text-xl mb-4">
        i’m a junior majoring in computer science at cornell, hoping to use tech to foster inclusivity 💌 and reduce barriers 🌈.
      </p>
-
-
-     <p className="text-xl mb-4">you can find me:</p>
-
-
-     <div className="mb-10 flex flex-col sm:flex-row items-center justify-center max-w-[1100px] mx-auto gap-4">
-       <button
-         onClick={handlePrev}
-         className="p-2 rounded-full bg-purple-950 text-white hover:scale-110 transition"
-         aria-label="Previous bullet point"
-       >
-         <ChevronLeft size={28} strokeWidth={3} />
-       </button>
-
-
-       <div className="w-full rounded-xl p-6 flex-grow bg-[rgba(233,213,255,0.6)] shadow-[0_4px_10px_rgba(76,29,149,0.7)] border-2 border-purple-950">
-         <div className="text-xl bullet-point min-h-[3.5rem] transition-opacity duration-500 ease-in-out">
-           {bulletPoints[index]}
-         </div>
-       </div>
-
-
-       <button
-         onClick={handleNext}
-         className="p-2 rounded-full bg-purple-950 text-white hover:scale-110 transition"
-         aria-label="Next bullet point"
-       >
-         <ChevronRight size={28} strokeWidth={3} />
-       </button>
-     </div>
 
 
      <p className="text-center text-xl mb-4">explore more:</p>
